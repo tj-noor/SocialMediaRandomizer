@@ -26,7 +26,7 @@ namespace CsvRandomizer
             CommandOption configOption = app.Option<string>("-c|--config <filePath>", "This is the path where the CSV file with the configuration for entry types & weights are located.",
                 CommandOptionType.SingleValue);
 
-            CommandOption shuffleCountOption = app.Option<int>("-s|--shuffle <count>", "This is number of times times the list will be shuffled before an entry is chosen. Default is 10.",
+            CommandOption shuffleCountOption = app.Option<int>("-s|--shuffle <count>", "This is number of times the list will be shuffled before an entry is chosen. Default is 10.",
                 CommandOptionType.SingleValue);
 
             // Set up what happens when the App Runs
