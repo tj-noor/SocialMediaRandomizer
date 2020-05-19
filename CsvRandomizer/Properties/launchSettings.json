@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CsvRandomizer": {
+      "commandName": "Project",
+      "commandLineArgs": "-s 50 -e \"C:\\Users\\tanji\\OneDrive\\Desktop\\TestFiles\\randomizerEntries.csv\" -c \"C:\\Users\\tanji\\OneDrive\\Desktop\\TestFiles\\randomizerConfig.csv\""
+    }
+  }
+}
